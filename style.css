@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    color: rgb(123, 125, 126);
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;  
+}
+
+/* start nav */
+
+nav{
+    background-color: rgb(252, 252, 247);
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 180px 50px 180px;
+    box-shadow: 0px 1px 2px rgb(167, 165, 161);
+    align-items: center;
+
+}
+.search input{
+    outline: none;
+    border: none;
+    font-size: 22px;
+    padding-left: 1px; 
+    background-color:rgb(252, 252, 247) ;
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+.search i {
+    position: absolute;
+    left: 145px;
+    top: 80px;
+    font-size: 19px;
+}
+.name{
+    font-size: 17px;
+    letter-spacing: 5px;
+    border: 2px solid black;
+    padding: 6px 8px;
+}
+.icon i{
+    font-size: 27px;
+    padding: 0 8px;
+    
+}
+.nav-top .name{
+    margin-right: 80px;
+}
+.nav-middle {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding: 20px 2px;
+}
+.nav-middle a{
+    text-decoration: none;
+    color: rgb(123, 125, 126);
+}
+
+.nav-middle h5{ 
+    margin-left: 40px;
+}
+/* End nav */
+
+
+/* start heading */
+
+.heading{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+
+}
+.div-heading{
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+    color: black;   
+}
+.div-heading h1{
+    font-size: 40px;
+    width: fit-content;
+    white-space: pre-line;
+    margin-bottom: 15px;
+    line-height: 60px;
+}
+.div-heading p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.div-heading button {
+    background-color: rgb(104, 26, 206);
+    width : 150px;
+    padding : 15px 15px;
+    border-radius : 5px;
+    color: aliceblue;
+    border: none;
+    transition: all .9s ease;
+}
+/* End heading */
+
+
+/* start head info */
+
+.head-info{
+    display: flex;
+    justify-content: center;
+    margin:80px 0px; 
+}
+.shipping{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 60px;
+    
+    
+}
+.shipping i{
+    font-size: 30px;
+    color: rgb(104, 26, 206);
+    padding: 7px 30px;
+}
+.div-shipping h3{
+    text-align: start;
+    color: rgb(56, 54, 54);
+    font-size: 15px;
+    line-height: 25px;
+}
+.div-shipping p{
+    font-size: 17px;
+    word-spacing: 2px;
+    line-height: 24px;
+    width: 270px;
+
+}
+/* end head info */
+
+/* start photos top */
+
+.photos-top{
+    display: flex;
+    justify-content: center;
+    margin: 140px 0 160px 30px;
+    
+    
+}
+.photo-model{
+    position: relative;
+    margin: 0 40px ;
+    transition: all .9s ease;
+
+}
+.photo-model div{
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    color: aliceblue;
+    width: 100%;
+    height: 70%;
+    background-image: linear-gradient(to top,
+    rgba(0,0,0,2),
+    rgba(0,0,0,.7),
+    rgba(0,0,0,0));
+}
+.photo-text p{
+    position: absolute;
+    top: 270px;
+    bottom: 10px;
+    left: 11px;
+    font-size: 40px;
+}
+.photo-text h6{
+    position: absolute;
+    top: 260px;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+
+/* end photos1 top */
+
+
+/* start photos middle*/
+
+.photos-middle{
+    background-color: #eceaea;
+    padding: 10px 0px 120px 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+.text-top{
+    text-align: center;
+    margin: 50px 0 ;
+    color: rgb(73, 73, 73);
+    width: 100%;  
+}
+.hr{
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    height: 3px;
+    width: 3%;
+    background-color: rgb(104, 26, 206);
+}
+.photo-product{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    width: 100%;
+    height: 100%;   
+}
+.product{
+    position: relative;
+    margin: 40px 35px ;
+    height: 100%;
+    box-shadow: 5px 10px 30px 1px #adadad ;   
+}
+.product div{ 
+    position: absolute;
+    top: 200px;
+    margin: 40px 0px;
+    color: rgb(11, 13, 15);
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 28px;  
+    background-color: #ffffff;
+    padding: 20px 0  50px 0;
+    box-shadow: 5px 10px 30px 1px #adadad ;   
+}
+.product-text h5{
+    font-size: 17px;
+    color: rgb(104, 26, 206);
+}
+.product-text p{
+    font-size: small;
+    color: #5a5959;
+}
+/* end photos middle*/
+
+
+/* start photos bottom*/
+
+.sale{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px 150px 0px;
+}
+.div-sale{
+    text-align: center;
+    width: 50%;
+    white-space: pre-line;
+    padding: 40px 90px;
+    margin: 60px 90px 60px 0;
+    line-height: 20px;
+}
+.sale img {
+    padding-left: 150px;
+}
+.div-sale h1{
+    font-size: 30px;
+    color: rgb(104, 26, 206);
+} 
+.div-sale span{
+    color: rgb(104, 26, 206);
+}
+.div-sale button {
+    background-color: rgb(104, 26, 206);
+    width : 150px;
+    padding : 15px 15px;
+    border-radius : 5px;
+    color: aliceblue;
+    border: none;
+    transition: all .9s ease;
+}
+.text-top{
+    text-align: center;
+    margin: 50px 0 ;
+    color: rgb(73, 73, 73);
+    width: 100%;  
+}
+.hr{
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    height: 3px;
+    width: 2%;
+    background-color: rgb(182, 33, 127);
+}
+/* end photos bottom*/
+
+
+/* start footer */
+
+.div-footer{
+    display: flex;
+    justify-content: center;
+    margin: 80px 70px 250px 10px;
+    /* padding: 0 50px; */
+
+}
+.div-footer ul{
+    list-style-type: none;
+    margin: 0 80px;
+}
+.div-footer lh {
+    font-size: 20px;
+    color: black;
+}
+.div-footer li{
+    font-size: 15px;
+}
+.div-ul{
+    padding-top: 48px;
+    line-height: 40px;   
+}
+.navgation{
+    line-height: 40px;
+}
+.promo lh{
+    line-height: 50px;
+    font: 30px;
+}
+.promo li{
+    line-height: 25px;
+    font-size: 15px;
+}
+.promo span{
+    font-size: 17px;
+    color: rgb(104, 26, 206);
+}
+.info{
+    line-height: 40px;
+    width: 260px;  
+}
+.Contact-details{
+    display: flex;
+    align-items: center;  
+}
+.Contact-details i{
+    font-size: 20px;
+    padding-right: 15px;
+    color: rgb(104, 26, 206);
+}
+.Contact-details input{
+    padding: 10px 10px;
+}
+.Contact-details button{
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color:rgb(104, 26, 206);
+    color:#ffffff;
+    border: none;
+    border-radius: 2px;
+
+}
+.copyright{
+    text-align: center;
+    font-size:15px;
+    padding-bottom: 60px;
+}
+/* end footer */
+
+
+
+
+
+
+/* About page*/
+
+.nav-line{
+    background-color: #f3f3f3;
+    font-size: 10px;
+    padding: 20px 90px;
+    color: rgb(31, 31, 31);
+}
+.nav-line span{
+color:rgb(104, 26, 206);
+}
+
+/* start section deitals */
+
+.details{
+    display: flex;
+    justify-content: center;
+    margin: 120px 100px;
+}
+.hr-details{
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 5%;
+    background-color:  rgb(104, 26, 206);
+}
+.div-details{
+    margin-left: 150px;
+}
+.div-details h1{
+    color: black;
+    margin-bottom: 50px;
+}
+.div-details p{
+    line-height: 30px;
+}
+/* end section deitals */
+
+
+/* start section team */
+
+.text-team{
+    text-align: center;
+    margin: 60px 0 ;
+    color: rgb(73, 73, 73);
+    width: 100%;  
+}
+.hr{
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 2%;
+    background-color:rgb(104, 26, 206);
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 70px 150px 70px ;
+}
+.team-detials{
+    text-align: center;
+    margin: 0px 20px;
+}
+.team-detials img{
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.team-detials h3{
+    color: #5a5959;
+}
+.team-detials h6{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.team-detials p{
+    line-height: 25px;
+}
+/* end section team */
+
+
+
+/* end About page*/
+
+
+
+
+
+/* start shop page */
+
+
+
+.shop{
+    display: flex;
+    margin: 70px 70px; 
+}
+
+.left-top{
+    line-height: 30px;
+    border: 1px solid rgb(202, 202, 202);
+    width: fit-content;
+    padding: 30px 30px;
+    text-align: left;
+}
+.left-top h4{
+    color: rgb(20, 20, 20);
+    font-size: 13px;
+}
+.left-top span{    
+    color: rgb(104, 26, 206);
+    margin-right: 100px;
+}
+.left-top p{
+    white-space: pre;
+    color: #3a3838;
+    font-size: 13px;
+}
+
+
+
+
+.left-bottom{
+    line-height: 30px;
+    border: 1px solid rgb(202, 202, 202);
+    width: fit-content;
+    padding-left: 34px;
+    text-align: left;
+    padding-right: 117px;
+    margin-top: 20px;  
+}
+.left-bottom h4{
+    line-height: 50px;
+    font-size: 13px;
+    color: black;
+}
+.left-bottom p{
+    color: #3a3838;
+    font-size: 13px;
+}
+
+
+
+
+.size-check{
+    font-size: 10px;
+    margin-left: 3px;   
+}
+.text-size{
+    color: #3a3838;
+    font-size: 13px;
+}
+.slider{
+    position: relative;
+    height: 5px;
+    border-radius: 5px;
+    background: #ddd;
+    border: 1px solid black;
+}
+.progress{
+    position: absolute;
+    height: 5px;
+    left: 25%;
+    right: 27%;
+    border-radius: 5px;
+    background: blueviolet;
+    
+}
+.rage-input{
+    position: relative;
+}
+.rage-input input{
+    position: absolute;
+    top: -5px;
+    height: 5px;
+    width: 100%;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    background: blueviolet;
+
+}
+
+
+
+.div-lable div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+    font-size: 13px;   
+}
+.div-lable p{
+    color: #3a3838;    
+}
+.div-lable i{
+    font-size: 13px;
+    padding-top: 6px;  
+}
+.dic-i i{
+    color: red;
+}
+.dic-i p{
+    margin-right: 12px;
+}
+.div-ic i{
+    color: green;
+}
+.div-ico i{
+    color: blue;
+}
+.div-ico p{
+    margin-right: 12px;
+}
+.div-icon i{
+    color: purple;
+}
+
+
+
+
+
+.shop-product{
+    width: 100%;
+    height: 100%;
+}
+.shop-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 50px;
+}
+.shop-top h5{
+    font-size: 20px;
+    color: rgb(71, 69, 69);
+}
+.shop-top div select{
+    padding: 10px 10px;
+    margin-left: 5px;
+    background: rgb(212, 211, 211);
+    border-radius: 3px;
+   
+    border: 1px solid black;
+}
+.shop-top div select option{
+    background: #ffffff;
+    padding: 10px 10px;
+    line-height: 50px;
+}
+
+
+
+.shop-bottom{
+    margin:  0 40px ;
+}
+.clothes{
+    position: relative;
+    margin: 0px 35px 130px 0;
+    height: 100%; 
+    box-shadow: 5px 10px 30px 1px #adadad ; 
+}
+.clothes div{ 
+    position: absolute;
+    top: 200px;
+    margin: 20px 0px;
+    color: rgb(11, 13, 15);
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 28px;  
+    background-color: #ffffff;
+    padding: 20px 0  50px 0;
+    box-shadow: 5px 10px 30px 1px #adadad ;
+}
+.clothes-text h5{
+    font-size: 17px;
+    color: rgb(104, 26, 206);
+}
+.clothes-text p{
+    font-size: small;
+    color: #5a5959;
+}
+
+
+
+
+
+.photos-bottom{
+    background-color: #eceaea;
+    padding: 10px 0px 120px 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+
+}
+.div-details span{
+    line-height: 70px;
+    font-size: 30px;
+    color:rgb(104, 26, 206);
+}
+
+.single-pic {
+    background-color: rgb(104, 26, 206);
+    width : 150px;
+    padding : 15px 15px;
+    border-radius : 5px;
+    color: aliceblue;
+    border: none;
+    margin-top: 30px;
+    transition: all .9s ease;
+}
+.input-radio label{
+    padding:0px  2px;
+}
+
+.input-radio-button{
+    margin-top: 30px;
+    display: flex;
+    height: 30px;
+    transition: all .9s ease;
+    
+}
+.input-radio-button input{
+    width: 5%;
+
+}
+.input-radio-button button {
+    width: 4%;
+    background: #ffffff;
+    border: 2px solid rgb(104, 26, 206);
+
+}
+
+/* end shop page */
+
+
+
+
+.icon i:hover{
+    color: #2b2929;
+}
+.name :hover {
+    color: #140f0f;
+    
+}
+.nav-middle h5:hover{
+    color: mediumvioletred;
+}
+
+.div-heading button:hover {
+    transform: scale(1.1);
+}
+.photo-model:hover{
+    transform: scale(1.1);
+    width: 350px;
+}
+.div-sale button:hover{
+    transform: scale(1.1);
+}
+.input-radio-button button:hover{
+    transform: scale(1.1);
+}
+
+
+.single-pic:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
